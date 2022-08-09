@@ -1,0 +1,602 @@
+[
+    {
+    "name": "Abacaxi",
+    "calories": "48",
+    "protein": "0,54 g",
+    "carbohydrates": "12,63 g",
+    "fiber": "1,4 g",
+    "blubber": "0,12 g",
+    "portion": "1,2 fatias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/abacaxi.jpg"
+    },
+    {
+    "name": "Amora",
+    "calories": "43",
+    "protein": "1,39 g",
+    "carbohydrates": "9,61 g",
+    "fiber": "5,3 g",
+    "blubber": "0,49 g",
+    "portion": "7/10 de xícara",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/amora.jpg"
+    },
+    {
+    "name": "Abacate",
+    "calories": "160",
+    "protein": "2 g",
+    "carbohydrates": "8,53 g",
+    "fiber": "6,7 g",
+    "blubber": "14,66 g",
+    "portion": "10 fatias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/abacate.jpg"
+    },
+    {
+    "name": "Banana-prata",
+    "calories": "89",
+    "protein": "1,09 g",
+    "carbohydrates": "22,84 g",
+    "fiber": "2,6 g",
+    "blubber": "0,33 g",
+    "portion": "Aproximadamente 22 fatias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/banana-prata.jpg"
+    },
+    {
+    "name": "Banana-nanica",
+    "calories": "92",
+    "protein": "1,14 g",
+    "carbohydrates": "23,62 g",
+    "fiber": "2,6 g",
+    "blubber": "0,33 g",
+    "portion": "1,05 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/banana-nanica.jpg"
+    },
+    {
+    "name": "Banana-maçã",
+    "calories": "89",
+    "protein": "1,09 g",
+    "carbohydrates": "22,84 g",
+    "fiber": "2,6 g",
+    "blubber": "0,33 g",
+    "portion": "1,3 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/banana-maca.jpg"
+    },
+    {
+    "name": "Cereja congelada",
+    "calories": "46",
+    "protein": "0,92 g",
+    "carbohydrates": "11,02 g",
+    "fiber": "1,6 g",
+    "blubber": "0,44 g",
+    "portion": "20 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/cereja-congelada.jpg"
+    },
+    {
+    "name": "Caqui",
+    "calories": "70",
+    "protein": "0,58 g",
+    "carbohydrates": "18,59 g",
+    "fiber": "3,6 g",
+    "blubber": "0,19 g",
+    "portion": "3/5 de caqui",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/caqui.jpg"
+    },
+    {
+    "name": "Carambola",
+    "calories": "31",
+    "protein": "1,04 g",
+    "carbohydrates": "6,73 g",
+    "fiber": "2,8 g",
+    "blubber": "0,33 g",
+    "portion": "Aproximadamente 1 unidade média",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/carambola.jpg"
+    },
+    {
+    "name": "Caju",
+    "calories": "43",
+    "protein": "0,21 g",
+    "carbohydrates": "11,41 g",
+    "fiber": "2 g",
+    "blubber": "0,14 g",
+    "portion": "Aproximadamente 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/caju.jpg"
+    },
+    {
+    "name": "Ameixa",
+    "calories": "46",
+    "protein": "0,7 g",
+    "carbohydrates": "11,42 g",
+    "fiber": "1,4 g",
+    "blubber": "0,28 g",
+    "portion": "Aproximadamente1 ½ unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/ameixa.jpg"
+    },
+    {
+    "name": "Acerola",
+    "calories": "32",
+    "protein": "0,4 g",
+    "carbohydrates": "7,69 g",
+    "fiber": "1,1 g",
+    "blubber": "0,3 g",
+    "portion": "16 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/acerola.jpg"
+    },
+    {
+    "name": "Figo",
+    "calories": "74",
+    "protein": "0,75 g",
+    "carbohydrates": "19,18 g",
+    "fiber": "2,9 g",
+    "blubber": "0,3 g",
+    "portion": "2 unidades médias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/figo.jpg"
+    },
+    {
+    "name": "Framboesa",
+    "calories": "52",
+    "protein": "1,2 g",
+    "carbohydrates": "11,94 g",
+    "fiber": "6,5 g",
+    "blubber": "0,65 g",
+    "portion": "52 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/framboesa.jpg"
+    },
+    {
+    "name": "Goiaba",
+    "calories": "68",
+    "protein": "2,55 g",
+    "carbohydrates": "14,32 g",
+    "fiber": "5,4 g",
+    "blubber": "2,55 g",
+    "portion": "Aproximadamente 2 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/goiaba.jpg"
+    },
+    {
+    "name": "Maçã",
+    "calories": "52",
+    "protein": "0,26 g",
+    "carbohydrates": "13,81 g",
+    "fiber": "2,4 g",
+    "blubber": "0,17 g",
+    "portion": "Aproximadamente 1 unidade pequena",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/maca.jpg"
+    },
+    {
+    "name": "Fruta-pão",
+    "calories": "103",
+    "protein": "1,07 g",
+    "carbohydrates": "27,12 g",
+    "fiber": "4,9 g",
+    "blubber": "0,23 g",
+    "portion": "2 1/10 xícaras",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/fruta-pao.jpg"
+    },
+    {
+    "name": "Jaca",
+    "calories": "94",
+    "protein": "1,47 g",
+    "carbohydrates": "24,01 g",
+    "fiber": "1,6 g",
+    "blubber": "0,3 g",
+    "portion": "Aproximadamente 1 ½ xícaras",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/jaca.jpg"
+    },
+    {
+    "name": "Jabuticaba",
+    "calories": "58",
+    "protein": "0,61 g",
+    "carbohydrates": "15,27 g",
+    "fiber": "0,8 g",
+    "blubber": "0,14 g",
+    "portion": "Aproximadamente 1 ½ xícaras",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/jabuticaba.jpg"
+    },
+    {
+    "name": "Kiwi",
+    "calories": "61",
+    "protein": "1,14 g",
+    "carbohydrates": "14,66 g",
+    "fiber": "3 g",
+    "blubber": "0,52 g",
+    "portion": "15,25 fatias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/kiwi.jpg"
+    },
+    {
+    "name": "Laranja-pera",
+    "calories": "37",
+    "protein": "0,61 g",
+    "carbohydrates": "9,73 g",
+    "fiber": "1,8 g",
+    "blubber": "0,11 g",
+    "portion": "Aproximadamente 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/laranja-pera.jpg"
+    },
+    {
+    "name": "Laranja-lima",
+    "calories": "46",
+    "protein": "0,95 g",
+    "carbohydrates": "12,34 g",
+    "fiber": "2,5 g",
+    "blubber": "0,17 g",
+    "portion": "Aproximadamente 1 unidade pequena",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/laranja-lima.jpg"
+    },
+    {
+    "name": "Lima",
+    "calories": "30",
+    "protein": "0,7 g",
+    "carbohydrates": "10,54 g",
+    "fiber": "2,8 g",
+    "blubber": "0,2 g",
+    "portion": "1 ½ unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/lima.jpg"
+    },
+    {
+    "name": "Limão",
+    "calories": "29",
+    "protein": "1,1 g",
+    "carbohydrates": "9,32 g",
+    "fiber": "2,8 g",
+    "blubber": "0,3 g",
+    "portion": "14,5 fatias",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/limao.jpg"
+    },
+    {
+    "name": "Lichia",
+    "calories": "66",
+    "protein": "0,83 g",
+    "carbohydrates": "16,53 g",
+    "fiber": "1,3 g",
+    "blubber": "0,44 g",
+    "portion": "11 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/lichia.jpg"
+    },
+    {
+    "name": "Melancia",
+    "calories": "30",
+    "protein": "0,61 g",
+    "carbohydrates": "7,55 g",
+    "fiber": "0,4 g",
+    "blubber": "0,15 g",
+    "portion": "Aproximadamente 11 bolas",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/melancia.jpg"
+    },
+    {
+    "name": "Manga",
+    "calories": "65",
+    "protein": "0,51 g",
+    "carbohydrates": "17 g",
+    "fiber": "1,8 g",
+    "blubber": "0,27 g",
+    "portion": "1 unidade sem refugo",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/manga.jpg"
+    },
+    {
+    "name": "Mamão papaia",
+    "calories": "46",
+    "protein": "0,44 g",
+    "carbohydrates": "11,58 g",
+    "fiber": "1,4 g",
+    "blubber": "0,14 g",
+    "portion": "Aproximadamente 1 unidade média",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/mamao-papaia.jpg"
+    },
+    {
+    "name": "Mamão formoso",
+    "calories": "45",
+    "protein": "0,81 g",
+    "carbohydrates": "11,6 g",
+    "fiber": "1,3 g",
+    "blubber": "0,13 g",
+    "portion": "Aproximadamente 1 ½ unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/mamao-formoso.jpg"
+    },
+    {
+    "name": "Maracujá",
+    "calories": "97",
+    "protein": "2,2 g",
+    "carbohydrates": "23,38 g",
+    "fiber": "10,4 g",
+    "blubber": "0,7 g",
+    "portion": "Aproximadamente 6 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/maracuja.jpg"
+    },
+    {
+    "name": "Mexerica",
+    "calories": "52",
+    "protein": "0,81 g",
+    "carbohydrates": "13,34 g",
+    "fiber": "1,8 g",
+    "blubber": "0,31 g",
+    "portion": "Aproximadamente 1 unidade grande",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/mexerica.jpg"
+    },
+    {
+    "name": "Morango",
+    "calories": "32",
+    "protein": "0,67 g",
+    "carbohydrates": "7,68 g",
+    "fiber": "2 g",
+    "blubber": "0,3 g",
+    "portion": "16 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/morango.jpg"
+    },
+    {
+    "name": "Mirtilo",
+    "calories": "57",
+    "protein": "0,74 g",
+    "carbohydrates": "14,49 g",
+    "fiber": "2,4 g",
+    "blubber": "0,33 g",
+    "portion": "Aproximadamente 73 bagas",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/mirtilo.jpg"
+    },
+    {
+    "name": "Coco",
+    "calories": "354",
+    "protein": "3,33 g",
+    "carbohydrates": "15,23 g",
+    "fiber": "9 g",
+    "blubber": "33,49 g",
+    "portion": "1 ¼ xícaras da fruta desfiada",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/coco.jpg"
+    },
+    {
+    "name": "Nectarina",
+    "calories": "44",
+    "protein": "1,06 g",
+    "carbohydrates": "10,55 g",
+    "fiber": "1,7 g",
+    "blubber": "0,32 g",
+    "portion": "Aproximadamente 1 ¼ unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/nectarina.jpg"
+    },
+    {
+    "name": "Nêspera",
+    "calories": "47",
+    "protein": "0,43 g",
+    "carbohydrates": "12,14 g",
+    "fiber": "1,7 g",
+    "blubber": "0,2 g",
+    "portion": "Aproximadamente 8 unidades pequenas",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/nespera.jpg"
+    },
+    {
+    "name": "Pera",
+    "calories": "58",
+    "protein": "0,38 g",
+    "carbohydrates": "15,46 g",
+    "fiber": "3,1 g",
+    "blubber": "0,12 g",
+    "portion": "Aproximadamente 1 unidade grande",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pera.jpg"
+    },
+    {
+    "name": "Pêssego",
+    "calories": "39",
+    "protein": "0,91 g",
+    "carbohydrates": "9,54 g",
+    "fiber": "1,5 g",
+    "blubber": "0,25 g",
+    "portion": "Aproximadamente 1 xícara de pêssego em cubos",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pessego.jpg"
+    },
+    {
+    "name": "Pitaya",
+    "calories": "51",
+    "protein": "0,78 g",
+    "carbohydrates": "12,38 g",
+    "fiber": "1,7 g",
+    "blubber": "0,38 g",
+    "portion": "Aproximadamente 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pitaya.jpg"
+    },
+    {
+    "name": "Pitanga",
+    "calories": "41",
+    "protein": "0,9 g",
+    "carbohydrates": "10,2 g",
+    "fiber": "3,2 g",
+    "blubber": "0,2 g",
+    "portion": "10 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pitanga.jpg"
+    },
+    {
+    "name": "Pinha",
+    "calories": "94",
+    "protein": "2,06 g",
+    "carbohydrates": "23,64 g",
+    "fiber": "4,4 g",
+    "blubber": "0,29 g",
+    "portion": "3/8 de xícara",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pinha.jpg"
+    },
+    {
+    "name": "Pitomba",
+    "calories": "34",
+    "protein": "0,4 g",
+    "carbohydrates": "8,8 g",
+    "fiber": "0,5 g",
+    "blubber": "0,09 g",
+    "portion": "Aproximadamente 5 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pitomba.jpg"
+    },
+    {
+    "name": "Ponkan",
+    "calories": "39",
+    "protein": "0,69 g",
+    "carbohydrates": "9,84 g",
+    "fiber": "1,6 g",
+    "blubber": "0,17 g",
+    "portion": "Aproximadamente 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/ponkan.jpg"
+    },
+    {
+    "name": "Romã",
+    "calories": "68",
+    "protein": "0,95 g",
+    "carbohydrates": "17,17 g",
+    "fiber": "0,6 g",
+    "blubber": "0,3 g",
+    "portion": "Aproximadamente 5/8 de 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/roma.jpg"
+    },
+    {
+    "name": "Sapoti",
+    "calories": "83",
+    "protein": "0,44 g",
+    "carbohydrates": "19,96 g",
+    "fiber": "5,3 g",
+    "blubber": "1,1 g",
+    "portion": "Aproximadamente 5/8 de 1 unidade",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/sapoti.jpg"
+    },
+    {
+    "name": "Tomate",
+    "calories": "18",
+    "protein": "0,88 g",
+    "carbohydrates": "3,92 g",
+    "fiber": "1,2 g",
+    "blubber": "0,2 g",
+    "portion": "Aproximadamente 1 unidade pequena",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/tomate.jpg"
+    },
+    {
+    "name": "Tamarindo",
+    "calories": "239",
+    "protein": "2,8 g",
+    "carbohydrates": "62,5 g",
+    "fiber": "5,1 g",
+    "blubber": "0,6 g",
+    "portion": "Aproximadamente 48 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/tamarindo.jpg"
+    },
+    {
+    "name": "Toranja",
+    "calories": "32",
+    "protein": "0,63 g",
+    "carbohydrates": "8,08 g",
+    "fiber": "1,1 g",
+    "blubber": "0,1 g",
+    "portion": "½ unidade pequena",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/toranja.jpg"
+    },
+    {
+    "name": "Uva Itália",
+    "calories": "68",
+    "protein": "0,71 g",
+    "carbohydrates": "17,92 g",
+    "fiber": "0,9 g",
+    "blubber": "0,16 g",
+    "portion": "5/8 de xícara de uva itália",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/uva-italia.jpg"
+    },
+    {
+    "name": "Uva-passa",
+    "calories": "299",
+    "protein": "3,07 g",
+    "carbohydrates": "79,18 g",
+    "fiber": "3,7 g",
+    "blubber": "0,46 g",
+    "portion": "Aproximadamente 190 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/uva-passa.jpg"
+    },
+    {
+    "name": "Goji Berry",
+    "calories": "321",
+    "protein": "14,07 g",
+    "carbohydrates": "69,21 g",
+    "fiber": "4,8 g",
+    "blubber": "1,79 g",
+    "portion": "Aproximadamente 1 xícara cheia de goji berry",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/goji-berry.jpg"
+    },
+    {
+    "name": "Tâmara",
+    "calories": "282",
+    "protein": "2,45 g",
+    "carbohydrates": "75,03 g",
+    "fiber": "8 g",
+    "blubber": "0,39 g",
+    "portion": "Aproximadamente 12 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/tamara.jpg"
+    },
+    {
+    "name": "Umbu",
+    "calories": "37",
+    "protein": "0,56 g",
+    "carbohydrates": "9,36 g",
+    "fiber": "1,1 g",
+    "blubber": "0,22 g",
+    "portion": "Aproximadamente 3 ½ unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/umbu.jpg"
+    },
+    {
+    "name": "Damasco",
+    "calories": "48",
+    "protein": "1,4 g",
+    "carbohydrates": "11,12 g",
+    "fiber": "2 g",
+    "blubber": "0,39 g",
+    "portion": "Aproximadamente 3 unidades",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/damasco.jpg"
+    },
+    {
+    "name": "Avelã",
+    "calories": "628",
+    "protein": "14,95 g",
+    "carbohydrates": "16,7 g",
+    "fiber": "9,7 g",
+    "blubber": "60,75 g",
+    "portion": "Aproximadamente 71,5 unidades de nozes de avelã",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/avela.jpg"
+    },
+    {
+    "name": "Amêndoa",
+    "calories": "578",
+    "protein": "21,26 g",
+    "carbohydrates": "19,74 g",
+    "fiber": "11,8 g",
+    "blubber": "50,64 g",
+    "portion": "Aproximadamente 82,5 unidades de amêndoas",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/amendoa.jpg"
+    },
+    {
+    "name": "Figo seco",
+    "calories": "249",
+    "protein": "3,3 g",
+    "carbohydrates": "63,87 g",
+    "fiber": "9,8 g",
+    "blubber": "0,93 g",
+    "portion": "Aproximadamente 6 unidades de figo seco",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/figo-seco.jpg"
+    },
+    {
+    "name": "Macadâmia",
+    "calories": "718",
+    "protein": "7,91 g",
+    "carbohydrates": "13,82 g",
+    "fiber": "8,6 g",
+    "blubber": "75,77 g",
+    "portion": "Aproximadamente entre 35 a 42,5 unidades de miolo de macadâmia",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/macadamia.jpg"
+    },
+    {
+    "name": "Pequi",
+    "calories": "203",
+    "protein": "1,98 g",
+    "carbohydrates": "12,95 g",
+    "fiber": "4,1 g",
+    "blubber": "17,5 g",
+    "portion": "Aproximadamente 6,5 unidades de pequi",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/pequi.jpg"
+    },
+    {
+    "name": "Melão Cantalupo (Meloa)",
+    "calories": "34",
+    "protein": "0,84 g",
+    "carbohydrates": "8,16 g",
+    "fiber": "0,9 g",
+    "blubber": "0,19 g",
+    "portion": "Aproximadamente 1 meia-lua grande ou 1/8 de unidade grande de melão",
+    "photo": "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits/melao-cantalupo.jpg"
+    }
+    ]
