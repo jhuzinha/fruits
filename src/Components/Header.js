@@ -1,15 +1,19 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { Context } from "../Contexts/DefaultContext";
 
 export default function Header() {
     const [cart, setCart] = useState(true)
+    const { bodyCart } = useContext(Context);
+
     return (
         <Container>
             <Info>
-                <Link to = "/" onClick={() => setCart(true) }> <p>FRUITS</p> </Link>
+                <Link to = "/" onClick={() => setCart(true) }> <h1>FRUITS</h1> </Link>
                 {cart? 
-                <Link to = "/cart" onClick={() => setCart(false)}> <ion-icon name="cart-outline"></ion-icon> </Link>
+                <Link to = "/cart" onClick={() => setCart(false)}> 
+                 {bodyCart.length === 0?  <></>: <p>{bodyCart.length}</p>}<ion-icon name="cart-outline"></ion-icon></Link>
                 :
                 <Link to = "/" onClick={() => setCart(true)}> <ion-icon name="return-down-back"></ion-icon> </Link>
                 }
@@ -41,10 +45,14 @@ const Info = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    p:hover {
+    h1:hover {
         color: lightcyan;
     }
     ion-icon:hover{
         color: lightcyan;
+    }
+    p {
+        color: white;
+        font-size: 15px;
     }
 `
