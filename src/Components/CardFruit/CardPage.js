@@ -1,6 +1,9 @@
+import { useState } from "react"
 import styled from "styled-components"
 
-export default function CardFruit({ types, index, card, info, setInfo}) {
+
+export default function CardFruit({ types, index, card}) {
+    const [info, setInfo] = useState(false)
     if (info) {
       return (
         <FruitContainer key={index}> 

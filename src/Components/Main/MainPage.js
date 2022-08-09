@@ -5,7 +5,6 @@ import { Context } from "../../Contexts/DefaultContext";
 import CardFruit from "../CardFruit/CardPage.js";
 
 export default function MainPage(){
-    const [info, setInfo] = useState(false)
     const [fruits, setFruits] = useState([]);
     const [busca, setBusca] = useState('');
     const { bodyCart, setBodyCart } = useContext(Context);
@@ -61,8 +60,7 @@ export default function MainPage(){
         </Search>
         {FilterFruits.map((types, index) => 
         {
-          return  <CardFruit types={types} index= {index} card = {() => AddToCard(types, bodyCart, setBodyCart)} info= {info}
-        setInfo={setInfo}/> })}
+          return  <CardFruit types={types} index= {index} card = {() => AddToCard(types, bodyCart, setBodyCart)} /> })}
       </ Container>
     );
 }
